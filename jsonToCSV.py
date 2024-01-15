@@ -19,7 +19,7 @@ data_file = open('pswd.csv', 'w')
 # create the csv writer object
 csv_writer = csv.writer(data_file)
 
-# Counter variable used for writing 
+# Counter variable used for writing so we have the right amount of headers
 count = 0
 
 for pswd in pswd_data:
