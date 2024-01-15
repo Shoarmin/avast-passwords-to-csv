@@ -8,7 +8,6 @@ from collections import OrderedDict
 user_input = input("What is the name of your password file (dont include the file extension): ")
 
 # Opening JSON file and loading the data
-# into the variable data
 with open(f'{user_input}.json') as json_file:
 	data = json.load(json_file)
 
