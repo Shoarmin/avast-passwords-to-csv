@@ -21,7 +21,6 @@ data_file = open('pswd.csv', 'w')
 csv_writer = csv.writer(data_file)
 
 # Counter variable used for writing 
-# headers to the CSV file
 count = 0
 
 for pswd in pswd_data:
